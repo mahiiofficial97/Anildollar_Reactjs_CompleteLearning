@@ -1,5 +1,5 @@
 import React from "react";
-import Mycomponent2 from "./Mycomponent2";
+import Mycomponent2 from "./componet/Mycomponent2";
 
 const Mycomponent = () => {
   return (
