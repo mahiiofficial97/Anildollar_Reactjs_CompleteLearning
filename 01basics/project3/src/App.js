@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+//impor area
+//import {somelocation} from somlocatiom
+//import somedefault from loactio
 
+import Acomp1 from "./component/Acomp1";
+import { Bcomp } from "./component/Bcomp";
+
+//functional defination are
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Acomp1 surname="Hande Only" />
+      <Acomp1 surname="patil" />
+      <Bcomp />
+    </>
   );
 }
 

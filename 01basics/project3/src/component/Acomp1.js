@@ -1,11 +1,22 @@
 import React from "react";
 
-function Acomp1() {
+//import area
+
+//function defination area
+function Acomp1(props) {
+  let name = "ramesh";
+
   return (
     <>
-      <span>mycomponumnet 1</span>
+      <span>
+        <h1>
+          Hello {name} {props.surname} How are you
+        </h1>
+      </span>
     </>
   );
 }
+
+//export area
 
 export default Acomp1;
