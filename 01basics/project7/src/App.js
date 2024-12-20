@@ -1,32 +1,21 @@
 import React from 'react'
-import Aside from './component/layout/Aside';
-import Footer from './component/layout/Footer';
-import Header from './component/layout/Header';
+import Layout from './component/layout/Layout';
 import Section from './component/layout/Section';
+import Page1 from './pages/Page1';
+import Page2 from './pages/Page2';
 import './Style.css';
 
 export default function App() {
   return (
 
-  <>
- <Header/>
-<main>
-  
-  <div className='container a_cont h-100 '>
+    <Layout>
+      <Section>
 
+        <Page1></Page1>
+        <Page2></Page2>
 
-    <div className='row h-100'>
-      <Aside cls='leftaside'>Left-Aside</Aside>
-    <Section></Section>
-    <Aside cls='rightside'>Right-Aside</Aside>
+      </Section>
 
-    </div>
-   
-
-     </div>
-</main>
-<Footer/>  
-  
-  </>
-    )
+    </Layout>
+  )
 }
