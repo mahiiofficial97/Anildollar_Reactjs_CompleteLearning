@@ -1,0 +1,25 @@
+header,
+footer {
+  height: 70px;
+  border: 2px dashed rgb(220, 209, 230);
+  background-color: #7432F9;
+}
+
+footer {
+  height: 170px;
+  background-color: #F8F9FA;
+
+
+}
+
+main {
+  height: 1000px;
+
+  border: 2px dashed rgb(226, 171, 60);
+}
+
+
+
+.tempbr {
+  border: 2px solid black;
+}
